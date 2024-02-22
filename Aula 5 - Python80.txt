@@ -1,0 +1,37 @@
+numero1 = int(input('digite um numero'))
+numero2 = int(input('digite um numero'))
+soma = numero1 + numero2
+print(soma)
+
+numero3 = int(input('digite um numero'))
+numero4 = int(input('digite um numero'))
+divisão = numero3 / numero4
+print(divisão)
+
+numero5 = int(input('digite um numero'))
+numero6 = int(input('digite um numero'))
+subtração = numero5 - numero6
+print(subtração)
+
+numero7 = int(input('digite um numero'))
+numero8 = int(input('digite um numero'))
+multiplicação = numero7 * numero8
+print(multiplicação)
+
+#1 concatene uma cidade e umaa adjetivo para ela
+
+text = 'Cidade'
+name = input('Digite nome da Cidade: ')
+print('{}{}'.format(text, name))
+
+#2 concatene uma viagem e quem vai participar dela
+
+text = 'para Freira de Santana'
+name = input('Quem vai participar dela: ')
+print('{}{}'.format(text, name))
+
+#3 concatena função programador seu nome ou nome do usuário
+
+text = 'quem esta usando este computador'
+name = input('Digite seu nome: ')
+print('{}{}'.format(text, name))
